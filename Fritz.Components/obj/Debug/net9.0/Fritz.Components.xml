@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fritz.Components</name>
+    </assembly>
+    <members>
+        <member name="P:Fritz.Components.EnvironmentRibbon.HideInProduction">
+            <summary>
+            If the environment is production, this will allow you to hide the ribbon.
+            </summary>
+        </member>
+        <member name="P:Fritz.Components.EnvironmentRibbon.Position">
+            <summary>
+            Position of the ribbon on the page
+            </summary>
+        </member>
+        <member name="F:Fritz.Components.EnvironmentRibbon.DefaultColors">
+            <summary>
+            Default color scheme for common environments
+            </summary>
+        </member>
+        <member name="M:Fritz.Components.EnvironmentRibbon.GetRibbonClass">
+            <summary>
+            Gets the CSS class based on the specified position
+            </summary>
+        </member>
+        <member name="T:Fritz.Components.EnvironmentRibbon.RibbonPosition">
+            <summary>
+            Available positions for the environment ribbon
+            </summary>
+        </member>
+    </members>
+</doc>

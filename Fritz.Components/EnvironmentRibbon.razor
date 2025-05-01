@@ -1,0 +1,69 @@
+﻿@using Microsoft.Extensions.Hosting
+@using System.Drawing
+@inject IHostEnvironment Environment  
+
+@if (!(HideInProduction && Environment.IsProduction()))
+{
+  <div class="@GetRibbonClass()" 
+       style="color: @(EnvironmentColors.TryGetValue(Environment.EnvironmentName, out var colors) ? colors.FontColor.Name : Color.Black.Name); 
+              background-color: @(colors.Background.Name);">
+    @Environment.EnvironmentName  
+  </div>
+}
+
+@code {
+
+  /// <summary>
+  /// If the environment is production, this will allow you to hide the ribbon.
+  /// </summary>
+  [Parameter]
+  public bool HideInProduction { get; set; } = true;
+
+  /// <summary>
+  /// Position of the ribbon on the page
+  /// </summary>
+  [Parameter]
+  public RibbonPosition Position { get; set; } = RibbonPosition.TopRight;
+
+  /// <summary>
+  /// Default color scheme for common environments
+  /// </summary>
+  public static readonly Dictionary<string, (Color FontColor, Color Background)> DefaultColors 
+    = new Dictionary<string, (Color FontColor, Color Background)>(StringComparer.OrdinalIgnoreCase)
+  {
+    { "Development", (Color.White, Color.Green) },
+    { "Staging", (Color.Black, Color.Yellow) },
+    { "Production", (Color.White, Color.Red) }
+  };
+
+  [Parameter]
+  public Dictionary<string, (Color FontColor, Color Background)> EnvironmentColors { get; set; } 
+    = new Dictionary<string, (Color FontColor, Color Background)>(DefaultColors, StringComparer.OrdinalIgnoreCase);
+
+  /// <summary>
+  /// Gets the CSS class based on the specified position
+  /// </summary>
+  private string GetRibbonClass()
+  {
+      return Position switch
+      {
+          RibbonPosition.TopLeft => "fritz-environmentribbon-tl",
+          RibbonPosition.BottomRight => "fritz-environmentribbon-br",
+          RibbonPosition.BottomLeft => "fritz-environmentribbon-bl",
+          RibbonPosition.BottomHorizontal => "fritz-environmentribbon-bh",
+          _ => "fritz-environmentribbon-tr"
+      };
+  }
+
+  /// <summary>
+  /// Available positions for the environment ribbon
+  /// </summary>
+  public enum RibbonPosition
+  {
+      TopRight,
+      TopLeft,
+      BottomRight,
+      BottomLeft,
+      BottomHorizontal
+  }
+}

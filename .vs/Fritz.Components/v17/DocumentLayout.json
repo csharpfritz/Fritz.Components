@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Fritz.Components\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08FEA619-10AC-49A3-9C48-E0D4540F44EA}|Fritz.Components\\Fritz.Components.csproj|d:\\fritz.components\\fritz.components\\environmentribbon.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FEA619-10AC-49A3-9C48-E0D4540F44EA}|Fritz.Components\\Fritz.Components.csproj|solutionrelative:fritz.components\\environmentribbon.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FEA619-10AC-49A3-9C48-E0D4540F44EA}|Fritz.Components\\Fritz.Components.csproj|d:\\fritz.components\\fritz.components\\environmentribbon.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08FEA619-10AC-49A3-9C48-E0D4540F44EA}|Fritz.Components\\Fritz.Components.csproj|solutionrelative:fritz.components\\environmentribbon.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB9D69B2-022F-4032-A0A1-425CCFEA4971}|Fritz.Components.Web\\Fritz.Components.Web.csproj|d:\\fritz.components\\fritz.components.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB9D69B2-022F-4032-A0A1-425CCFEA4971}|Fritz.Components.Web\\Fritz.Components.Web.csproj|solutionrelative:fritz.components.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FEA619-10AC-49A3-9C48-E0D4540F44EA}|Fritz.Components\\Fritz.Components.csproj|d:\\fritz.components\\fritz.components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FEA619-10AC-49A3-9C48-E0D4540F44EA}|Fritz.Components\\Fritz.Components.csproj|solutionrelative:fritz.components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Fritz.Components\\Fritz.Components.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Fritz.Components.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Fritz.Components\\Fritz.Components.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Fritz.Components.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:50:31.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnvironmentRibbon.razor.css",
+              "DocumentMoniker": "D:\\Fritz.Components\\Fritz.Components\\EnvironmentRibbon.razor.css",
+              "RelativeDocumentMoniker": "Fritz.Components\\EnvironmentRibbon.razor.css",
+              "ToolTip": "D:\\Fritz.Components\\Fritz.Components\\EnvironmentRibbon.razor.css",
+              "RelativeToolTip": "Fritz.Components\\EnvironmentRibbon.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-01T15:46:14.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnvironmentRibbon.razor",
+              "DocumentMoniker": "D:\\Fritz.Components\\Fritz.Components\\EnvironmentRibbon.razor",
+              "RelativeDocumentMoniker": "Fritz.Components\\EnvironmentRibbon.razor",
+              "ToolTip": "D:\\Fritz.Components\\Fritz.Components\\EnvironmentRibbon.razor",
+              "RelativeToolTip": "Fritz.Components\\EnvironmentRibbon.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:41:03.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Fritz.Components\\Fritz.Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Fritz.Components\\_Imports.razor",
+              "ToolTip": "D:\\Fritz.Components\\Fritz.Components\\_Imports.razor",
+              "RelativeToolTip": "Fritz.Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:39:51.916Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
