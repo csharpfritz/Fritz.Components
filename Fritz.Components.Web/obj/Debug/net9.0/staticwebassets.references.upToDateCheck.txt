@@ -1,2 +1,0 @@
-D:\Fritz.Components\Fritz.Components\obj\Debug\net9.0\staticwebassets.build.json
-D:\Fritz.Components\Fritz.Components\obj\Debug\net9.0\staticwebassets.build.json

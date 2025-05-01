@@ -19,3 +19,5 @@ The Environment Ribbon component displays the current environment name with conf
 ```
 
 This will show a colored ribbon with the environment name except in Production (by default).
+
+![The default EnvironmentRibbon in the top right corner of a blazor website in the Development environment](docs/img/EnvironmentRibbon-sample_tr.png)
